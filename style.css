@@ -1,0 +1,20 @@
+/**
+ * Custom styles for realy-simple-events plugin
+ * Author: Huntly Cameron
+ * Website: http://www.huntlycameron.co.uk/
+ */
+ .wrap #upcoming-events td.actions,
+ .wrap #past-events td.actions{
+	 text-align: right;
+ }
+
+ .hidden{
+	 display: none;
+ }
+
+
+/** Cal can go under the admin bar in the backend, up the cal z-index **/
+ .wp-admin #ui-datepicker-div{
+    z-index: 100000 !important;
+
+ }
